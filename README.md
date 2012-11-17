@@ -18,7 +18,7 @@ vtvisyelp
 		which categories we need to consider for our visualization.
 		see list_categories_VT_Food_only.txt to see the list. 
 
- 	D---> How many restaurants are within each these categories										[X]
+ 	D---> How many restaurants are within each these categories					[X]
 		see list_categories_VT_Food_only.txt for the list of categories we care to display
 
 	S---> The earliest and latest dates of reviews of restaurants                                   [ ]
@@ -30,17 +30,19 @@ vtvisyelp
 
 [above done by 11-16-12???]
 
-    -Incorporate submit button into menu interface (figure 1) - S                                       [X]
+    S ---> Incorporate submit button into menu interface (figure 1) - S                                  [X]
 
-    -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [ ]
-  	Verification process: take 1 restaurant, find the 4 ratings, print them....eyeball them...
+    S ---> the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.[*]
+  	see list_of_scores.txt. 
+	still to-do: recent scores, user review quantity weighted scores.
 
-    -remove non-restaurants from business profiles JSON file											[ ]
+    S ---> remove non-restaurants from business profiles JSON file					 [X]
+	in VT_jsons folder, business_profiles_food_only
 
-    -layout the visualization and menu interface                                                        [ ]
+    -layout the visualization and menu interface                                                         [ ]
 
-    -load and use JSON into D3 and connect it somehow to our layout                                     [ ]
-
+    -load and use JSON into D3 and connect it somehow to our layout                                      [ ]
+ 
 
 Suggestions for layout enhancement after Project 2 presentation (11/13/2012):
 - Mesh the UI with the visualization.
