@@ -1,0 +1,954 @@
+INDIA GARDEN RESTAURANT
+Overall Rating:	70 (3.5)
+Cool Review Rating:		80.00 (4.0)
+Useful Review Rating:	80.00 (4.0)
+Funny Review Rating:	80.00 (4.0)
+Cool User Rating:		75.32 (3.765853658536585)
+Useful User Rating:		74.15 (3.707482993197279)
+Funny User Rating:		74.65 (3.732394366197183)
+--------------------------------------------------
+KABUKI JAPANESE STEAK HOUSE
+Overall Rating:	50 (2.5)
+Cool Review Rating:		80.00 (4.0)
+Useful Review Rating:	50.00 (2.5)
+Funny Review Rating:	50.00 (2.5)
+Cool User Rating:		58.74 (2.936893203883495)
+Useful User Rating:		59.45 (2.9725526075022874)
+Funny User Rating:		58.27 (2.9133333333333336)
+--------------------------------------------------
+ARBY'S ROASTBEEF RESTAURANT
+Overall Rating:	60 (3.0)
+Cool Review Rating:		80.00 (4.0)
+Useful Review Rating:	50.00 (2.5)
+Funny Review Rating:	50.00 (2.5)
+Cool User Rating:		58.80 (2.9402298850574713)
+Useful User Rating:		59.49 (2.974402730375427)
+Funny User Rating:		58.37 (2.9184952978056424)
+--------------------------------------------------
+BLACKSBURG FARMERS MARKET
+Overall Rating:	90 (4.5)
+Cool Review Rating:		80.00 (4.0)
+Useful Review Rating:	50.00 (2.5)
+Funny Review Rating:	50.00 (2.5)
+Cool User Rating:		58.99 (2.9496567505720823)
+Useful User Rating:		59.75 (2.9873203719357564)
+Funny User Rating:		58.83 (2.941358024691358)
+--------------------------------------------------
+ABBY'S RESTAURANT & BAR
+Overall Rating:	70 (3.5)
+Cool Review Rating:		80.00 (4.0)
+Useful Review Rating:	53.33 (2.6666666666666665)
+Funny Review Rating:	50.00 (2.5)
+Cool User Rating:		59.40 (2.9699570815450644)
+Useful User Rating:		60.27 (3.013481363996828)
+Funny User Rating:		59.13 (2.9563953488372094)
+--------------------------------------------------
+CAROL LEE DONUTS
+Overall Rating:	100 (5.0)
+Cool Review Rating:		96.67 (4.833333333333333)
+Useful Review Rating:	87.27 (4.363636363636363)
+Funny Review Rating:	83.33 (4.166666666666667)
+Cool User Rating:		94.55 (4.72737556561086)
+Useful User Rating:		89.44 (4.472135253600501)
+Funny User Rating:		95.48 (4.77384370015949)
+--------------------------------------------------
+PANERA BREAD
+Overall Rating:	70 (3.5)
+Cool Review Rating:		94.29 (4.714285714285714)
+Useful Review Rating:	87.27 (4.363636363636363)
+Funny Review Rating:	83.33 (4.166666666666667)
+Cool User Rating:		94.50 (4.725119819565831)
+Useful User Rating:		89.36 (4.468076285240464)
+Funny User Rating:		95.39 (4.769523809523809)
+--------------------------------------------------
+GILLIE'S CUISINE
+Overall Rating:	80 (4.0)
+Cool Review Rating:		82.11 (4.105263157894737)
+Useful Review Rating:	81.67 (4.083333333333333)
+Funny Review Rating:	77.33 (3.8666666666666667)
+Cool User Rating:		88.65 (4.432274247491639)
+Useful User Rating:		84.62 (4.230751630248255)
+Funny User Rating:		90.39 (4.519376488417406)
+--------------------------------------------------
+RED ROBIN GOURMET BURGERS
+Overall Rating:	70 (3.5)
+Cool Review Rating:		82.11 (4.105263157894737)
+Useful Review Rating:	81.67 (4.083333333333333)
+Funny Review Rating:	77.33 (3.8666666666666667)
+Cool User Rating:		88.32 (4.415924906942871)
+Useful User Rating:		84.27 (4.213569776407093)
+Funny User Rating:		89.73 (4.486709252009066)
+--------------------------------------------------
+POOR BILLY'S SEAFOOD RESTAURANT
+Overall Rating:	60 (3.0)
+Cool Review Rating:		78.18 (3.909090909090909)
+Useful Review Rating:	78.46 (3.923076923076923)
+Funny Review Rating:	71.11 (3.5555555555555554)
+Cool User Rating:		86.51 (4.325252825698989)
+Useful User Rating:		82.64 (4.131977152019241)
+Funny User Rating:		87.36 (4.368162957374576)
+--------------------------------------------------
+THE CELLAR RESTAURANT
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.33 (3.7666666666666666)
+Useful Review Rating:	78.42 (3.9210526315789473)
+Funny Review Rating:	72.31 (3.6153846153846154)
+Cool User Rating:		77.37 (3.8687137997609633)
+Useful User Rating:		75.91 (3.7952864157119475)
+Funny User Rating:		80.69 (4.034478021978022)
+--------------------------------------------------
+FIREHOUSE PIZZA
+Overall Rating:	60 (3.0)
+Cool Review Rating:		75.33 (3.7666666666666666)
+Useful Review Rating:	78.42 (3.9210526315789473)
+Funny Review Rating:	72.31 (3.6153846153846154)
+Cool User Rating:		77.06 (3.85310581437342)
+Useful User Rating:		75.60 (3.7801181608014387)
+Funny User Rating:		80.09 (4.00453514739229)
+--------------------------------------------------
+EL GUADALUPES
+Overall Rating:	80 (4.0)
+Cool Review Rating:		76.13 (3.806451612903226)
+Useful Review Rating:	78.42 (3.9210526315789473)
+Funny Review Rating:	72.31 (3.6153846153846154)
+Cool User Rating:		81.79 (4.0895212155963305)
+Useful User Rating:		79.71 (3.985364811451768)
+Funny User Rating:		83.09 (4.15452588648465)
+--------------------------------------------------
+PRESTON'S
+Overall Rating:	50 (2.5)
+Cool Review Rating:		76.13 (3.806451612903226)
+Useful Review Rating:	78.42 (3.9210526315789473)
+Funny Review Rating:	72.31 (3.6153846153846154)
+Cool User Rating:		81.78 (4.089072017198137)
+Useful User Rating:		79.67 (3.983669548511047)
+Funny User Rating:		83.08 (4.1537938844847115)
+--------------------------------------------------
+JIMMY JOHNS GOURMET SANDWICHES
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.62 (3.78125)
+Useful Review Rating:	77.95 (3.8974358974358974)
+Funny Review Rating:	71.85 (3.5925925925925926)
+Cool User Rating:		80.85 (4.042349071472624)
+Useful User Rating:		78.87 (3.9434222631094755)
+Funny User Rating:		81.52 (4.0760388103775576)
+--------------------------------------------------
+AU BON PAIN
+Overall Rating:	80 (4.0)
+Cool Review Rating:		76.00 (3.8)
+Useful Review Rating:	78.05 (3.902439024390244)
+Funny Review Rating:	72.14 (3.607142857142857)
+Cool User Rating:		80.81 (4.040655220051312)
+Useful User Rating:		78.91 (3.9454357255520507)
+Funny User Rating:		81.49 (4.07441428423986)
+--------------------------------------------------
+BOUDREAUX'S RESTAURANT
+Overall Rating:	60 (3.0)
+Cool Review Rating:		74.21 (3.710526315789474)
+Useful Review Rating:	75.22 (3.760869565217391)
+Funny Review Rating:	72.14 (3.607142857142857)
+Cool User Rating:		80.03 (4.001601872959152)
+Useful User Rating:		78.12 (3.9060955518945635)
+Funny User Rating:		80.96 (4.048130885570246)
+--------------------------------------------------
+OUR DAILY BREAD CAFE AND BAKERY
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.21 (3.710526315789474)
+Useful Review Rating:	76.08 (3.803921568627451)
+Funny Review Rating:	72.14 (3.607142857142857)
+Cool User Rating:		80.03 (4.001658171098692)
+Useful User Rating:		78.15 (3.907628884660687)
+Funny User Rating:		80.97 (4.048701913966268)
+--------------------------------------------------
+SHARKEY'S
+Overall Rating:	60 (3.0)
+Cool Review Rating:		74.76 (3.738095238095238)
+Useful Review Rating:	74.14 (3.706896551724138)
+Funny Review Rating:	71.76 (3.588235294117647)
+Cool User Rating:		79.20 (3.959888160017206)
+Useful User Rating:		77.41 (3.8707411310151034)
+Funny User Rating:		79.51 (3.975442043222004)
+--------------------------------------------------
+FIREHOUSE SUBS
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.76 (3.738095238095238)
+Useful Review Rating:	74.14 (3.706896551724138)
+Funny Review Rating:	71.76 (3.588235294117647)
+Cool User Rating:		79.20 (3.9599398560842016)
+Useful User Rating:		77.42 (3.871118374970815)
+Funny User Rating:		79.51 (3.975484187300809)
+--------------------------------------------------
+ROMA'S PIZZA
+Overall Rating:	80 (4.0)
+Cool Review Rating:		75.35 (3.7674418604651163)
+Useful Review Rating:	74.14 (3.706896551724138)
+Funny Review Rating:	71.76 (3.588235294117647)
+Cool User Rating:		82.16 (4.1077728776185225)
+Useful User Rating:		80.10 (4.004815244860324)
+Funny User Rating:		81.85 (4.0925243770314195)
+--------------------------------------------------
+SAL'S ITALIAN RESTAURANT & PIZZERIA
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.35 (3.7674418604651163)
+Useful Review Rating:	74.24 (3.711864406779661)
+Funny Review Rating:	71.76 (3.588235294117647)
+Cool User Rating:		82.13 (4.106260901496374)
+Useful User Rating:		79.98 (3.9991489651416123)
+Funny User Rating:		81.78 (4.088996180730706)
+--------------------------------------------------
+HOKIE HOUSE
+Overall Rating:	60 (3.0)
+Cool Review Rating:		75.35 (3.7674418604651163)
+Useful Review Rating:	74.24 (3.711864406779661)
+Funny Review Rating:	71.76 (3.588235294117647)
+Cool User Rating:		82.02 (4.1010206871411645)
+Useful User Rating:		79.71 (3.985737243873041)
+Funny User Rating:		81.57 (4.0784817351598175)
+--------------------------------------------------
+CHAMPS SPORTS BAR & CAFE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.35 (3.7674418604651163)
+Useful Review Rating:	75.08 (3.753846153846154)
+Funny Review Rating:	71.76 (3.588235294117647)
+Cool User Rating:		81.49 (4.0744040548032)
+Useful User Rating:		79.45 (3.972700894178954)
+Funny User Rating:		81.03 (4.051448170731708)
+--------------------------------------------------
+BUD FOSTER'S RESTAURANT
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.67 (3.7333333333333334)
+Useful Review Rating:	74.55 (3.727272727272727)
+Funny Review Rating:	70.00 (3.5)
+Cool User Rating:		80.50 (4.02498937854853)
+Useful User Rating:		78.56 (3.9277939775384705)
+Funny User Rating:		79.44 (3.9720697646054397)
+--------------------------------------------------
+KOBE JAPANESE EXPRESS
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.47 (3.723404255319149)
+Useful Review Rating:	74.20 (3.710144927536232)
+Funny Review Rating:	73.66 (3.682926829268293)
+Cool User Rating:		79.57 (3.9784958258795466)
+Useful User Rating:		77.68 (3.884177583294098)
+Funny User Rating:		78.08 (3.903886190145732)
+--------------------------------------------------
+MILL MOUNTAIN COFFEE & TEA
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.88 (3.693877551020408)
+Useful Review Rating:	73.52 (3.676056338028169)
+Funny Review Rating:	73.33 (3.6666666666666665)
+Cool User Rating:		79.48 (3.973934781809492)
+Useful User Rating:		77.59 (3.8795197087827007)
+Funny User Rating:		78.00 (3.8999943210858086)
+--------------------------------------------------
+DOUBLE DRAGON
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.88 (3.693877551020408)
+Useful Review Rating:	73.52 (3.676056338028169)
+Funny Review Rating:	73.49 (3.6744186046511627)
+Cool User Rating:		79.41 (3.9706627501376905)
+Useful User Rating:		77.51 (3.8757457424883395)
+Funny User Rating:		77.88 (3.893961708394698)
+--------------------------------------------------
+ATTITUDES BAR & CAFE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.88 (3.693877551020408)
+Useful Review Rating:	73.52 (3.676056338028169)
+Funny Review Rating:	73.49 (3.6744186046511627)
+Cool User Rating:		79.41 (3.9703489224453894)
+Useful User Rating:		77.51 (3.8755102592522506)
+Funny User Rating:		77.87 (3.8937072426075647)
+--------------------------------------------------
+EXCELLENT TABLE
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.88 (3.693877551020408)
+Useful Review Rating:	73.61 (3.6805555555555554)
+Funny Review Rating:	73.49 (3.6744186046511627)
+Cool User Rating:		79.40 (3.9701142689715794)
+Useful User Rating:		77.51 (3.8752936094386996)
+Funny User Rating:		77.87 (3.893728813559322)
+--------------------------------------------------
+CERITANO'S RISTORANTE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.51 (3.7254901960784315)
+Useful Review Rating:	73.33 (3.6666666666666665)
+Funny Review Rating:	72.89 (3.6444444444444444)
+Cool User Rating:		79.49 (3.9746683189969385)
+Useful User Rating:		77.60 (3.8800032213900297)
+Funny User Rating:		77.91 (3.8956771684608014)
+--------------------------------------------------
+CINCO DE MAYO
+Overall Rating:	40 (2.0)
+Cool Review Rating:		74.51 (3.7254901960784315)
+Useful Review Rating:	73.33 (3.6666666666666665)
+Funny Review Rating:	72.89 (3.6444444444444444)
+Cool User Rating:		79.45 (3.9724193137575954)
+Useful User Rating:		77.52 (3.8759098694069793)
+Funny User Rating:		77.89 (3.8942540379312285)
+--------------------------------------------------
+NEXT DOOR BAKE SHOP
+Overall Rating:	90 (4.5)
+Cool Review Rating:		75.93 (3.7962962962962963)
+Useful Review Rating:	75.00 (3.75)
+Funny Review Rating:	74.58 (3.7291666666666665)
+Cool User Rating:		80.18 (4.0092190128996075)
+Useful User Rating:		78.13 (3.9064107226349423)
+Funny User Rating:		78.45 (3.9222672952527136)
+--------------------------------------------------
+CICI'S PIZZA
+Overall Rating:	50 (2.5)
+Cool Review Rating:		75.93 (3.7962962962962963)
+Useful Review Rating:	75.00 (3.75)
+Funny Review Rating:	74.58 (3.7291666666666665)
+Cool User Rating:		80.16 (4.007953191787541)
+Useful User Rating:		78.05 (3.9026427033896107)
+Funny User Rating:		78.40 (3.9202124746728)
+--------------------------------------------------
+ZEPPOLI'S
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.25 (3.76271186440678)
+Useful Review Rating:	74.19 (3.7093023255813953)
+Funny Review Rating:	73.70 (3.685185185185185)
+Cool User Rating:		80.10 (4.005091546683751)
+Useful User Rating:		78.05 (3.902454201513341)
+Funny User Rating:		78.42 (3.920965230928905)
+--------------------------------------------------
+BOOKBINDER'S GRILL
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.25 (3.76271186440678)
+Useful Review Rating:	74.19 (3.7093023255813953)
+Funny Review Rating:	74.18 (3.709090909090909)
+Cool User Rating:		80.11 (4.00565523277342)
+Useful User Rating:		78.06 (3.9028353136705283)
+Funny User Rating:		78.43 (3.921367521367521)
+--------------------------------------------------
+PK'S RESTAURANT & BAR
+Overall Rating:	60 (3.0)
+Cool Review Rating:		75.67 (3.783333333333333)
+Useful Review Rating:	73.64 (3.6818181818181817)
+Funny Review Rating:	74.18 (3.709090909090909)
+Cool User Rating:		80.27 (4.0136517747307145)
+Useful User Rating:		78.32 (3.9160960057477716)
+Funny User Rating:		78.62 (3.930784976436426)
+--------------------------------------------------
+BOLLO'S CAFE & BAKERY
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.49 (3.7246376811594204)
+Useful Review Rating:	73.79 (3.6893203883495147)
+Funny Review Rating:	73.93 (3.6964285714285716)
+Cool User Rating:		78.64 (3.9321492879358324)
+Useful User Rating:		77.11 (3.855600511952438)
+Funny User Rating:		77.51 (3.8756042396558605)
+--------------------------------------------------
+HOKKAIDO BUFFET
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.13 (3.7066666666666666)
+Useful Review Rating:	74.34 (3.7168141592920354)
+Funny Review Rating:	73.23 (3.661290322580645)
+Cool User Rating:		78.91 (3.9455655593500985)
+Useful User Rating:		77.42 (3.870895566328433)
+Funny User Rating:		78.03 (3.901715939632003)
+--------------------------------------------------
+SUB STATION II
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.21 (3.710526315789474)
+Useful Review Rating:	74.39 (3.719298245614035)
+Funny Review Rating:	73.33 (3.6666666666666665)
+Cool User Rating:		78.91 (3.945688632024356)
+Useful User Rating:		77.44 (3.871751246699912)
+Funny User Rating:		78.04 (3.902061005770816)
+--------------------------------------------------
+AWFUL ARTHUR'S SEAFOOD CO
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.51 (3.675324675324675)
+Useful Review Rating:	73.45 (3.6724137931034484)
+Funny Review Rating:	71.69 (3.5846153846153848)
+Cool User Rating:		78.75 (3.93770197486535)
+Useful User Rating:		77.17 (3.85851871947911)
+Funny User Rating:		77.88 (3.894207892361966)
+--------------------------------------------------
+MAMMA CONCETTA
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.51 (3.675324675324675)
+Useful Review Rating:	73.61 (3.680672268907563)
+Funny Review Rating:	71.69 (3.5846153846153848)
+Cool User Rating:		78.76 (3.9378311279465588)
+Useful User Rating:		77.17 (3.858484731349053)
+Funny User Rating:		77.88 (3.894021294021294)
+--------------------------------------------------
+CAFE DE BANGKOK
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.51 (3.675324675324675)
+Useful Review Rating:	72.74 (3.6370967741935485)
+Funny Review Rating:	71.69 (3.5846153846153848)
+Cool User Rating:		78.64 (3.9321400422058934)
+Useful User Rating:		77.00 (3.850093643695295)
+Funny User Rating:		77.75 (3.887432004546562)
+--------------------------------------------------
+GREEN'S GRILL & SUSHI BAR
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.51 (3.675324675324675)
+Useful Review Rating:	72.32 (3.616)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		78.64 (3.9318025958192577)
+Useful User Rating:		76.97 (3.8483259609518)
+Funny User Rating:		77.73 (3.886407845680013)
+--------------------------------------------------
+THE RIVERMILL
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.76 (3.738095238095238)
+Useful Review Rating:	73.08 (3.6538461538461537)
+Funny Review Rating:	71.83 (3.591549295774648)
+Cool User Rating:		78.72 (3.93601431162084)
+Useful User Rating:		77.09 (3.854413436502989)
+Funny User Rating:		77.78 (3.8889890635412177)
+--------------------------------------------------
+BACKSTREETS RESTAURANT
+Overall Rating:	60 (3.0)
+Cool Review Rating:		74.59 (3.7294117647058824)
+Useful Review Rating:	72.63 (3.6315789473684212)
+Funny Review Rating:	71.83 (3.591549295774648)
+Cool User Rating:		78.53 (3.926284853784125)
+Useful User Rating:		76.85 (3.84253320083115)
+Funny User Rating:		77.67 (3.8836946790704916)
+--------------------------------------------------
+SOUVLAKI
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.38 (3.7191011235955056)
+Useful Review Rating:	72.43 (3.6214285714285714)
+Funny Review Rating:	71.51 (3.5753424657534247)
+Cool User Rating:		77.38 (3.8688115589881544)
+Useful User Rating:		76.10 (3.8048578391551584)
+Funny User Rating:		76.89 (3.844553028438851)
+--------------------------------------------------
+EATS NATURAL FOODS
+Overall Rating:	90 (4.5)
+Cool Review Rating:		74.51 (3.7252747252747254)
+Useful Review Rating:	72.54 (3.6267605633802815)
+Funny Review Rating:	71.62 (3.581081081081081)
+Cool User Rating:		77.38 (3.8690888619435304)
+Useful User Rating:		76.11 (3.8053655373642408)
+Funny User Rating:		76.90 (3.844874763207746)
+--------------------------------------------------
+SAKE HOUSE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.35 (3.717391304347826)
+Useful Review Rating:	71.68 (3.5838926174496644)
+Funny Review Rating:	71.47 (3.5733333333333333)
+Cool User Rating:		77.37 (3.8687294585711816)
+Useful User Rating:		76.09 (3.8047091859789557)
+Funny User Rating:		76.89 (3.844372135334663)
+--------------------------------------------------
+BEIJING BUFFET
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.98 (3.6989247311827955)
+Useful Review Rating:	71.47 (3.5733333333333333)
+Funny Review Rating:	71.05 (3.5526315789473686)
+Cool User Rating:		76.85 (3.8423150714133447)
+Useful User Rating:		75.60 (3.779952890247008)
+Funny User Rating:		76.02 (3.8010730640421024)
+--------------------------------------------------
+EL GRAN RODEO
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.98 (3.6989247311827955)
+Useful Review Rating:	71.47 (3.5733333333333333)
+Funny Review Rating:	71.05 (3.5526315789473686)
+Cool User Rating:		76.85 (3.8425124685621723)
+Useful User Rating:		75.61 (3.780278688003054)
+Funny User Rating:		76.03 (3.801420862080743)
+--------------------------------------------------
+KROGER
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.85 (3.7422680412371134)
+Useful Review Rating:	71.87 (3.5935483870967744)
+Funny Review Rating:	72.50 (3.625)
+Cool User Rating:		78.23 (3.9113591072140297)
+Useful User Rating:		76.80 (3.839953218478701)
+Funny User Rating:		78.07 (3.9033287875030993)
+--------------------------------------------------
+CHINESE KITCHEN
+Overall Rating:	90 (4.5)
+Cool Review Rating:		75.40 (3.77)
+Useful Review Rating:	72.28 (3.6139240506329116)
+Funny Review Rating:	73.17 (3.658536585365854)
+Cool User Rating:		78.67 (3.933332101138548)
+Useful User Rating:		77.33 (3.8666946661066777)
+Funny User Rating:		78.72 (3.9360083316457892)
+--------------------------------------------------
+CHINA INN RESTAURANT
+Overall Rating:	80 (4.0)
+Cool Review Rating:		75.45 (3.772277227722772)
+Useful Review Rating:	72.42 (3.62111801242236)
+Funny Review Rating:	73.25 (3.6626506024096384)
+Cool User Rating:		78.68 (3.9340044947104933)
+Useful User Rating:		77.36 (3.8680673780951986)
+Funny User Rating:		78.74 (3.937072270339344)
+--------------------------------------------------
+POOR BILLY'S SUSHI RESTAURANT
+Overall Rating:	30 (1.5)
+Cool Review Rating:		75.45 (3.772277227722772)
+Useful Review Rating:	72.42 (3.62111801242236)
+Funny Review Rating:	73.25 (3.6626506024096384)
+Cool User Rating:		78.68 (3.9340044947104933)
+Useful User Rating:		77.36 (3.8680673780951986)
+Funny User Rating:		78.74 (3.937072270339344)
+--------------------------------------------------
+OUTBACK STEAKHOUSE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.45 (3.772277227722772)
+Useful Review Rating:	72.42 (3.62111801242236)
+Funny Review Rating:	73.25 (3.6626506024096384)
+Cool User Rating:		78.68 (3.933899698547547)
+Useful User Rating:		77.36 (3.8678464688952845)
+Funny User Rating:		78.74 (3.93680624556423)
+--------------------------------------------------
+THE GOBBLER RESTAURANT & PUB
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.49 (3.7745098039215685)
+Useful Review Rating:	72.47 (3.623456790123457)
+Funny Review Rating:	73.25 (3.6626506024096384)
+Cool User Rating:		78.68 (3.9341128399700844)
+Useful User Rating:		77.34 (3.867165084970205)
+Funny User Rating:		78.73 (3.9362582546835587)
+--------------------------------------------------
+622 NORTH
+Overall Rating:	80 (4.0)
+Cool Review Rating:		75.58 (3.7788461538461537)
+Useful Review Rating:	72.21 (3.61046511627907)
+Funny Review Rating:	73.41 (3.6705882352941175)
+Cool User Rating:		78.67 (3.9337281341107873)
+Useful User Rating:		77.32 (3.866237393541641)
+Funny User Rating:		78.72 (3.935863689111545)
+--------------------------------------------------
+MIKE'S GRILL
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.33 (3.7663551401869158)
+Useful Review Rating:	72.07 (3.603448275862069)
+Funny Review Rating:	73.02 (3.6511627906976742)
+Cool User Rating:		78.24 (3.9117812951669193)
+Useful User Rating:		76.91 (3.8455962691538974)
+Funny User Rating:		78.02 (3.900774854201462)
+--------------------------------------------------
+LONDON UNDERGROUND PUB LTD
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.33 (3.7663551401869158)
+Useful Review Rating:	72.07 (3.603448275862069)
+Funny Review Rating:	73.02 (3.6511627906976742)
+Cool User Rating:		78.19 (3.909456917315705)
+Useful User Rating:		76.82 (3.8410018552875695)
+Funny User Rating:		77.96 (3.8978249597467456)
+--------------------------------------------------
+FIVE GUYS BURGER AND FRIES
+Overall Rating:	80 (4.0)
+Cool Review Rating:		75.41 (3.770642201834862)
+Useful Review Rating:	72.16 (3.6079545454545454)
+Funny Review Rating:	72.95 (3.647727272727273)
+Cool User Rating:		78.19 (3.909440387586013)
+Useful User Rating:		76.82 (3.8411287869771624)
+Funny User Rating:		77.95 (3.897665677008144)
+--------------------------------------------------
+O'CHARLEY'S
+Overall Rating:	50 (2.5)
+Cool Review Rating:		75.41 (3.770642201834862)
+Useful Review Rating:	72.16 (3.6079545454545454)
+Funny Review Rating:	72.95 (3.647727272727273)
+Cool User Rating:		78.16 (3.9082409486387877)
+Useful User Rating:		76.76 (3.837805731180951)
+Funny User Rating:		77.91 (3.8953624371005033)
+--------------------------------------------------
+WALMART
+Overall Rating:	50 (2.5)
+Cool Review Rating:		75.41 (3.770642201834862)
+Useful Review Rating:	72.09 (3.6045197740112993)
+Funny Review Rating:	72.81 (3.640449438202247)
+Cool User Rating:		78.16 (3.907807760419406)
+Useful User Rating:		76.74 (3.8368119190454215)
+Funny User Rating:		77.90 (3.8947969336160497)
+--------------------------------------------------
+RED LOBSTER
+Overall Rating:	70 (3.5)
+Cool Review Rating:		75.41 (3.770642201834862)
+Useful Review Rating:	72.09 (3.6045197740112993)
+Funny Review Rating:	72.81 (3.640449438202247)
+Cool User Rating:		78.14 (3.90722986591885)
+Useful User Rating:		76.71 (3.835414197286975)
+Funny User Rating:		77.88 (3.894107739534378)
+--------------------------------------------------
+THE FARMHOUSE
+Overall Rating:	40 (2.0)
+Cool Review Rating:		74.95 (3.7477477477477477)
+Useful Review Rating:	71.05 (3.552486187845304)
+Funny Review Rating:	72.81 (3.640449438202247)
+Cool User Rating:		78.07 (3.9037193767814364)
+Useful User Rating:		76.58 (3.829049180327869)
+Funny User Rating:		77.83 (3.8915188981074778)
+--------------------------------------------------
+EL RODEO
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.28 (3.663793103448276)
+Useful Review Rating:	69.12 (3.4559585492227978)
+Funny Review Rating:	71.06 (3.5531914893617023)
+Cool User Rating:		76.66 (3.832836014530358)
+Useful User Rating:		75.33 (3.7664236251053382)
+Funny User Rating:		76.40 (3.8199454380115188)
+--------------------------------------------------
+TEXAS ROADHOUSE
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.28 (3.663793103448276)
+Useful Review Rating:	69.18 (3.4587628865979383)
+Funny Review Rating:	71.06 (3.5531914893617023)
+Cool User Rating:		76.67 (3.8334329805283995)
+Useful User Rating:		75.35 (3.7674432743986963)
+Funny User Rating:		76.42 (3.820989979657952)
+--------------------------------------------------
+SHE-SHA
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.28 (3.663793103448276)
+Useful Review Rating:	69.18 (3.4587628865979383)
+Funny Review Rating:	71.06 (3.5531914893617023)
+Cool User Rating:		76.67 (3.8335915811220866)
+Useful User Rating:		75.36 (3.7678406718772757)
+Funny User Rating:		76.42 (3.8210970040648364)
+--------------------------------------------------
+FAZOLI'S
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.28 (3.663793103448276)
+Useful Review Rating:	69.18 (3.4587628865979383)
+Funny Review Rating:	71.06 (3.5531914893617023)
+Cool User Rating:		76.67 (3.8334785695843014)
+Useful User Rating:		75.36 (3.767754225463193)
+Funny User Rating:		76.42 (3.8210621378220404)
+--------------------------------------------------
+APPLEBEE'S NEIGHBORHOOD GRILL & BAR
+Overall Rating:	30 (1.5)
+Cool Review Rating:		73.28 (3.663793103448276)
+Useful Review Rating:	69.03 (3.4512820512820515)
+Funny Review Rating:	71.06 (3.5531914893617023)
+Cool User Rating:		76.64 (3.83182301912348)
+Useful User Rating:		75.29 (3.7642755045182548)
+Funny User Rating:		76.38 (3.8192139956890068)
+--------------------------------------------------
+BUFFALO WILD WINGS GRILL & BAR
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.71 (3.685483870967742)
+Useful Review Rating:	69.15 (3.457286432160804)
+Funny Review Rating:	71.13 (3.556701030927835)
+Cool User Rating:		76.63 (3.8313024641213107)
+Useful User Rating:		75.27 (3.763681116474693)
+Funny User Rating:		76.31 (3.8153378177861312)
+--------------------------------------------------
+RIVER MILL
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.81 (3.6904761904761907)
+Useful Review Rating:	69.20 (3.46)
+Funny Review Rating:	71.22 (3.561224489795918)
+Cool User Rating:		76.66 (3.83283615070158)
+Useful User Rating:		75.31 (3.76563296164192)
+Funny User Rating:		76.34 (3.817048071740089)
+--------------------------------------------------
+CLAY CORNER INN
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.54 (3.677165354330709)
+Useful Review Rating:	69.05 (3.4527363184079602)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		76.64 (3.8321240417678792)
+Useful User Rating:		75.29 (3.764534642920537)
+Funny User Rating:		76.34 (3.8167780143406014)
+--------------------------------------------------
+LEFTY'S MAIN STREET GRILLE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.64 (3.682170542635659)
+Useful Review Rating:	69.11 (3.4554455445544554)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		76.66 (3.832759461031712)
+Useful User Rating:		75.33 (3.766346131239273)
+Funny User Rating:		76.35 (3.8175990249847653)
+--------------------------------------------------
+JOE'S DINER
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.85 (3.6923076923076925)
+Useful Review Rating:	69.11 (3.4554455445544554)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		76.65 (3.8326338127800046)
+Useful User Rating:		75.31 (3.7656484962406016)
+Funny User Rating:		76.34 (3.817056530214425)
+--------------------------------------------------
+PITA VERA
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.85 (3.6923076923076925)
+Useful Review Rating:	68.99 (3.449275362318841)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		76.66 (3.833090573070839)
+Useful User Rating:		75.32 (3.7660892535708443)
+Funny User Rating:		76.35 (3.8173452788501225)
+--------------------------------------------------
+SUB SHACK
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.89 (3.6946564885496183)
+Useful Review Rating:	68.99 (3.449275362318841)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		76.66 (3.8331193235202003)
+Useful User Rating:		75.32 (3.766149568955447)
+Funny User Rating:		76.35 (3.8173300970873787)
+--------------------------------------------------
+FOOD LION
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.94 (3.696969696969697)
+Useful Review Rating:	68.90 (3.444976076555024)
+Funny Review Rating:	70.91 (3.5454545454545454)
+Cool User Rating:		76.65 (3.8327178267401103)
+Useful User Rating:		75.31 (3.765381115699587)
+Funny User Rating:		76.34 (3.817015497295855)
+--------------------------------------------------
+TOP OF THE STAIRS
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.83 (3.691729323308271)
+Useful Review Rating:	68.90 (3.444976076555024)
+Funny Review Rating:	69.90 (3.495049504950495)
+Cool User Rating:		76.21 (3.8107020006478582)
+Useful User Rating:		74.94 (3.7468055986842863)
+Funny User Rating:		76.16 (3.8080007683811172)
+--------------------------------------------------
+CINCO DE MAYO RESTURANT
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.83 (3.691729323308271)
+Useful Review Rating:	68.90 (3.444976076555024)
+Funny Review Rating:	69.90 (3.495049504950495)
+Cool User Rating:		76.22 (3.8110003236295826)
+Useful User Rating:		74.93 (3.7466473776063194)
+Funny User Rating:		76.15 (3.80755939524838)
+--------------------------------------------------
+O-PASS TEA & CREPE
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.93 (3.696296296296296)
+Useful Review Rating:	69.00 (3.4502369668246446)
+Funny Review Rating:	69.90 (3.495049504950495)
+Cool User Rating:		76.23 (3.8115641557244873)
+Useful User Rating:		74.95 (3.747444136953091)
+Funny User Rating:		76.16 (3.807897443256559)
+--------------------------------------------------
+CABO FISH TACO
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.11 (3.7054794520547945)
+Useful Review Rating:	69.27 (3.463636363636364)
+Funny Review Rating:	69.90 (3.495145631067961)
+Cool User Rating:		76.41 (3.8203881329466873)
+Useful User Rating:		75.13 (3.756681367144432)
+Funny User Rating:		76.37 (3.8185543619188738)
+--------------------------------------------------
+CUSTOM MEATS
+Overall Rating:	100 (5.0)
+Cool Review Rating:		74.29 (3.7142857142857144)
+Useful Review Rating:	69.27 (3.463636363636364)
+Funny Review Rating:	69.90 (3.495145631067961)
+Cool User Rating:		76.43 (3.821334640930772)
+Useful User Rating:		75.18 (3.7587751642763587)
+Funny User Rating:		76.39 (3.819674785464807)
+--------------------------------------------------
+GUMBY'S PIZZA
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.29 (3.7142857142857144)
+Useful Review Rating:	68.98 (3.448888888888889)
+Funny Review Rating:	70.19 (3.5096153846153846)
+Cool User Rating:		74.08 (3.703751983677171)
+Useful User Rating:		73.29 (3.6646881138970446)
+Funny User Rating:		74.75 (3.7375490896108534)
+--------------------------------------------------
+EL MARIACHI
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.50 (3.7248322147651005)
+Useful Review Rating:	69.34 (3.467248908296943)
+Funny Review Rating:	70.75 (3.5377358490566038)
+Cool User Rating:		74.11 (3.705607146390762)
+Useful User Rating:		73.34 (3.667122725407032)
+Funny User Rating:		74.79 (3.739491310443045)
+--------------------------------------------------
+THE CHOCOLATE SPIKE
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.50 (3.7248322147651005)
+Useful Review Rating:	69.48 (3.4741379310344827)
+Funny Review Rating:	70.75 (3.5377358490566038)
+Cool User Rating:		74.11 (3.7056379234802765)
+Useful User Rating:		73.34 (3.6672068355922214)
+Funny User Rating:		74.79 (3.739547406599764)
+--------------------------------------------------
+HUNAN KING CHINESE RESTAURANT
+Overall Rating:	60 (3.0)
+Cool Review Rating:		74.50 (3.7248322147651005)
+Useful Review Rating:	69.36 (3.467811158798283)
+Funny Review Rating:	70.75 (3.5377358490566038)
+Cool User Rating:		74.11 (3.7053787169853485)
+Useful User Rating:		73.33 (3.6664621974548783)
+Funny User Rating:		74.78 (3.738893133937343)
+--------------------------------------------------
+MACADO'S
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.89 (3.694267515923567)
+Useful Review Rating:	68.79 (3.4393305439330546)
+Funny Review Rating:	69.56 (3.47787610619469)
+Cool User Rating:		72.22 (3.611239635049778)
+Useful User Rating:		71.74 (3.586893814732359)
+Funny User Rating:		72.97 (3.6483752738590063)
+--------------------------------------------------
+VINCENTS RISTORANTE
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.54 (3.6772151898734178)
+Useful Review Rating:	68.58 (3.4291666666666667)
+Funny Review Rating:	69.12 (3.456140350877193)
+Cool User Rating:		72.17 (3.6083261980747774)
+Useful User Rating:		71.67 (3.5835835739183333)
+Funny User Rating:		72.90 (3.645182384796158)
+--------------------------------------------------
+CHU-CHO'S MEXICAN
+Overall Rating:	40 (2.0)
+Cool Review Rating:		73.58 (3.6792452830188678)
+Useful Review Rating:	68.48 (3.4238683127572016)
+Funny Review Rating:	68.70 (3.4347826086956523)
+Cool User Rating:		72.16 (3.608098468242954)
+Useful User Rating:		71.65 (3.582312308256314)
+Funny User Rating:		72.88 (3.6440899528176636)
+--------------------------------------------------
+OGE-CHI RESTUARANT AND LOUNGE
+Overall Rating:	50 (2.5)
+Cool Review Rating:		73.58 (3.6792452830188678)
+Useful Review Rating:	68.48 (3.4238683127572016)
+Funny Review Rating:	68.28 (3.413793103448276)
+Cool User Rating:		72.18 (3.6089859723588176)
+Useful User Rating:		71.66 (3.583188182649281)
+Funny User Rating:		72.89 (3.6444308570263937)
+--------------------------------------------------
+SUSHI FACTORY
+Overall Rating:	80 (4.0)
+Cool Review Rating:		73.58 (3.6792452830188678)
+Useful Review Rating:	68.57 (3.4285714285714284)
+Funny Review Rating:	68.28 (3.413793103448276)
+Cool User Rating:		72.18 (3.609177419771922)
+Useful User Rating:		71.68 (3.5837952067624035)
+Funny User Rating:		72.89 (3.6446837968807264)
+--------------------------------------------------
+BLACKSTONE GRILL
+Overall Rating:	70 (3.5)
+Cool Review Rating:		73.62 (3.68125)
+Useful Review Rating:	68.62 (3.430894308943089)
+Funny Review Rating:	68.28 (3.413793103448276)
+Cool User Rating:		72.18 (3.609232996780991)
+Useful User Rating:		71.68 (3.5839750360057607)
+Funny User Rating:		72.90 (3.644756127351193)
+--------------------------------------------------
+BOSTON BEANERY
+Overall Rating:	60 (3.0)
+Cool Review Rating:		73.62 (3.68125)
+Useful Review Rating:	68.58 (3.42914979757085)
+Funny Review Rating:	68.28 (3.413793103448276)
+Cool User Rating:		71.75 (3.5877207152354087)
+Useful User Rating:		71.35 (3.567556784441805)
+Funny User Rating:		72.57 (3.628667904111212)
+--------------------------------------------------
+VINTAGE CELLAR
+Overall Rating:	90 (4.5)
+Cool Review Rating:		74.11 (3.705521472392638)
+Useful Review Rating:	70.23 (3.5114503816793894)
+Funny Review Rating:	69.08 (3.453781512605042)
+Cool User Rating:		72.01 (3.600468320910161)
+Useful User Rating:		71.65 (3.5826732131123604)
+Funny User Rating:		72.84 (3.64222071241386)
+--------------------------------------------------
+EASY CHAIR COFFEE SHOP
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.18 (3.709090909090909)
+Useful Review Rating:	70.27 (3.5133079847908744)
+Funny Review Rating:	69.08 (3.453781512605042)
+Cool User Rating:		72.02 (3.601033288035161)
+Useful User Rating:		71.68 (3.583843128686913)
+Funny User Rating:		72.86 (3.6428543742005504)
+--------------------------------------------------
+TATAKI
+Overall Rating:	90 (4.5)
+Cool Review Rating:		74.18 (3.709090909090909)
+Useful Review Rating:	70.27 (3.5133079847908744)
+Funny Review Rating:	69.08 (3.453781512605042)
+Cool User Rating:		72.03 (3.601705803893736)
+Useful User Rating:		71.70 (3.5850319716939087)
+Funny User Rating:		72.87 (3.643511613040699)
+--------------------------------------------------
+IHOP
+Overall Rating:	30 (1.5)
+Cool Review Rating:		74.18 (3.709090909090909)
+Useful Review Rating:	70.27 (3.5133079847908744)
+Funny Review Rating:	69.08 (3.453781512605042)
+Cool User Rating:		71.91 (3.5953738175160206)
+Useful User Rating:		71.55 (3.577638118039685)
+Funny User Rating:		72.65 (3.6325515006558136)
+--------------------------------------------------
+MCDONALD'S
+Overall Rating:	60 (3.0)
+Cool Review Rating:		74.18 (3.709090909090909)
+Useful Review Rating:	70.27 (3.5133079847908744)
+Funny Review Rating:	69.08 (3.453781512605042)
+Cool User Rating:		71.91 (3.595467636434638)
+Useful User Rating:		71.56 (3.5778011401227126)
+Funny User Rating:		72.65 (3.6326404689367937)
+--------------------------------------------------
+SYCAMORE DELI
+Overall Rating:	80 (4.0)
+Cool Review Rating:		74.37 (3.718562874251497)
+Useful Review Rating:	70.41 (3.520446096654275)
+Funny Review Rating:	69.17 (3.4583333333333335)
+Cool User Rating:		72.24 (3.61215775520259)
+Useful User Rating:		71.87 (3.593596920923723)
+Funny User Rating:		72.92 (3.64606584561495)
+--------------------------------------------------
+BULL AND BONES BREWHAUS AND GRILL
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.17 (3.7085714285714286)
+Useful Review Rating:	70.36 (3.517857142857143)
+Funny Review Rating:	69.11 (3.4552845528455283)
+Cool User Rating:		72.37 (3.61831903235811)
+Useful User Rating:		71.96 (3.598023796498906)
+Funny User Rating:		73.03 (3.6517280875588605)
+--------------------------------------------------
+BIG AL'S GRILLE & SPORTS BAR
+Overall Rating:	90 (4.5)
+Cool Review Rating:		74.17 (3.7085714285714286)
+Useful Review Rating:	70.36 (3.517857142857143)
+Funny Review Rating:	69.11 (3.4552845528455283)
+Cool User Rating:		72.56 (3.627948872900585)
+Useful User Rating:		72.13 (3.606492800869329)
+Funny User Rating:		73.33 (3.6663311163041525)
+--------------------------------------------------
+YOGI FACTORY
+Overall Rating:	100 (5.0)
+Cool Review Rating:		74.17 (3.7085714285714286)
+Useful Review Rating:	70.57 (3.528368794326241)
+Funny Review Rating:	69.11 (3.4552845528455283)
+Cool User Rating:		72.58 (3.628918133652367)
+Useful User Rating:		72.16 (3.6081942748609417)
+Funny User Rating:		73.35 (3.6674090704984286)
+--------------------------------------------------
+LOG CABIN BBQ
+Overall Rating:	60 (3.0)
+Cool Review Rating:		74.17 (3.7085714285714286)
+Useful Review Rating:	70.67 (3.5335689045936394)
+Funny Review Rating:	69.11 (3.4552845528455283)
+Cool User Rating:		72.56 (3.628136985989552)
+Useful User Rating:		72.13 (3.606621160986915)
+Funny User Rating:		73.33 (3.6666965631054027)
+--------------------------------------------------
+HARDEE'S
+Overall Rating:	70 (3.5)
+Cool Review Rating:		74.17 (3.7085714285714286)
+Useful Review Rating:	70.67 (3.5335689045936394)
+Funny Review Rating:	69.11 (3.4552845528455283)
+Cool User Rating:		72.57 (3.628541853878266)
+Useful User Rating:		72.15 (3.6073242245261814)
+Funny User Rating:		73.34 (3.6669056752590254)
+--------------------------------------------------
+MOE'S SOUTHWEST GRILL
+Overall Rating:	50 (2.5)
+Cool Review Rating:		74.17 (3.7085714285714286)
+Useful Review Rating:	70.14 (3.5069444444444446)
+Funny Review Rating:	69.11 (3.4552845528455283)
+Cool User Rating:		72.57 (3.6283182821136917)
+Useful User Rating:		72.13 (3.606694878747181)
+Funny User Rating:		73.34 (3.6667861623946942)
+--------------------------------------------------
