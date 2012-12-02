@@ -18,6 +18,7 @@ public class Algorithms
 		double totalV_CUR=0;
 		double totalV_UUR=0;
 		double totalV_FUR=0;
+		int total_numRevs = 0;
 		try 
 		{
 			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/list_of_scores.txt"));
@@ -54,6 +55,8 @@ public class Algorithms
 						totalV_UUR += numVotes_UUR;
 						int numVotes_FUR = usr_profs.get(b).getVotes().getFunny().intValue(); 
 						totalV_FUR += numVotes_FUR;
+						int numRevs = usr_profs.get(b).getReview_count().intValue();
+						total_numRevs += numRevs;
 						CUR += (numVotes_CUR * usr_revs.get(a).getStars().doubleValue());
 						UUR += (numVotes_UUR * usr_revs.get(a).getStars().doubleValue());
 						FUR += (numVotes_FUR * usr_revs.get(a).getStars().doubleValue());
@@ -82,6 +85,8 @@ public class Algorithms
 		out.write("Cool User Rating:\t\t" + f.format((20*(CUR/totalV_CUR))) + " (" +(CUR/totalV_CUR)+ ")\n");
 		out.write("Useful User Rating:\t\t" +  f.format((20*(UUR/totalV_UUR))) + " (" +(UUR/totalV_UUR)+ ")\n");
 		out.write("Funny User Rating:\t\t"  +  f.format((20*(FUR/totalV_FUR))) + " (" +(FUR/totalV_FUR)+ ")\n");
+		double rec_rtg = ((CRR/totalV_CRR) + (URR/totalV_URR) + (FRR/totalV_FRR) + (CUR/totalV_CUR) + (UUR/totalV_UUR) + (FUR/totalV_FUR)) / 6;
+		out.write("Funny User Rating:\t\t"  +  f.format((20*(rec_rtg))) + " (" +(rec_rtg)+ ")\n");
 		out.write("--------------------------------------------------\n");
 		}	
 	System.out.println("Count: " + cnt);
