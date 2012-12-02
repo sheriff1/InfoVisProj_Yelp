@@ -21,10 +21,10 @@ public class Algorithms
 		int total_numRevs = 0;
 		try 
 		{
-			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/list_of_scores.txt"));
+			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/list_of_scores.txt"));
 			int cnt = 0;
 		
-		double CRR = 0, URR = 0, FRR = 0, CUR = 0, UUR = 0, FUR = 0;
+		double CRR = 0, URR = 0, FRR = 0, CUR = 0, UUR = 0, FUR = 0, USR = 0;
 		for(int i=0; i<biz_profs.size(); i++)
 		{
 			cnt++;
@@ -60,6 +60,7 @@ public class Algorithms
 						CUR += (numVotes_CUR * usr_revs.get(a).getStars().doubleValue());
 						UUR += (numVotes_UUR * usr_revs.get(a).getStars().doubleValue());
 						FUR += (numVotes_FUR * usr_revs.get(a).getStars().doubleValue());
+						USR += (numRevs		 * usr_revs.get(a).getStars().doubleValue());	
 					}
 				}
 			}
@@ -70,6 +71,7 @@ public class Algorithms
 		totalV_CUR = (totalV_CUR == 0) ? 1 : totalV_CUR;
 		totalV_UUR = (totalV_UUR == 0) ? 1 : totalV_UUR;
 		totalV_FUR = (totalV_FUR == 0) ? 1 : totalV_FUR;
+		total_numRevs = (total_numRevs == 0) ? 1 : total_numRevs;
 		out.write(biz_profs.get(i).getName().toUpperCase() + "\n");
 		/*System.out.println("Cool Review Rating:\t" + CRR + "/" + totalV_CRR + " = " + (CRR/totalV_CRR));
 		System.out.println("Useful Review Rating:\t" + URR + "/" + totalV_URR + " = " +  (URR/totalV_URR));
@@ -86,7 +88,9 @@ public class Algorithms
 		out.write("Useful User Rating:\t\t" +  f.format((20*(UUR/totalV_UUR))) + " (" +(UUR/totalV_UUR)+ ")\n");
 		out.write("Funny User Rating:\t\t"  +  f.format((20*(FUR/totalV_FUR))) + " (" +(FUR/totalV_FUR)+ ")\n");
 		double rec_rtg = ((CRR/totalV_CRR) + (URR/totalV_URR) + (FRR/totalV_FRR) + (CUR/totalV_CUR) + (UUR/totalV_UUR) + (FUR/totalV_FUR)) / 6;
-		out.write("Funny User Rating:\t\t"  +  f.format((20*(rec_rtg))) + " (" +(rec_rtg)+ ")\n");
+		out.write("Recent Rating:\t\t"  +  f.format((20*(rec_rtg))) + " (" +(rec_rtg)+ ")\n");
+		out.write("Review Quantity Rating:\t\t"  +  f.format((20*(USR/total_numRevs))) + " (" +(USR/total_numRevs)+ ")\n");
+		
 		out.write("--------------------------------------------------\n");
 		}	
 	System.out.println("Count: " + cnt);
