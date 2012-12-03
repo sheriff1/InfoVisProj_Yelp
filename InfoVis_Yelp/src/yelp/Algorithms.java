@@ -21,10 +21,11 @@ public class Algorithms
 		int total_numRevs = 0;
 		try 
 		{
-			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/list_of_scores.txt"));
+			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.json"));
 			int cnt = 0;
 		
 		double CRR = 0, URR = 0, FRR = 0, CUR = 0, UUR = 0, FUR = 0, USR = 0;
+		out.write('[');
 		for(int i=0; i<biz_profs.size(); i++)
 		{
 			cnt++;
@@ -72,14 +73,14 @@ public class Algorithms
 		totalV_UUR = (totalV_UUR == 0) ? 1 : totalV_UUR;
 		totalV_FUR = (totalV_FUR == 0) ? 1 : totalV_FUR;
 		total_numRevs = (total_numRevs == 0) ? 1 : total_numRevs;
-		out.write(biz_profs.get(i).getName().toUpperCase() + "\n");
+		out.write("{\"name\":\"" + biz_profs.get(i).getName().toUpperCase() + "\",");
 		/*System.out.println("Cool Review Rating:\t" + CRR + "/" + totalV_CRR + " = " + (CRR/totalV_CRR));
 		System.out.println("Useful Review Rating:\t" + URR + "/" + totalV_URR + " = " +  (URR/totalV_URR));
 		System.out.println("Funny Review Rating:\t" + FRR + "/" + totalV_FRR + " = " + (FRR/totalV_FRR));
 		System.out.println("Cool User Rating:\t" + CUR + "/" + totalV_CUR + " = " + (CUR/totalV_CUR));
 		System.out.println("Useful User Rating:\t" + UUR + "/" + totalV_UUR + " = " +  (UUR/totalV_UUR));
 		System.out.println("Funny User Rating:\t" + FUR + "/" + totalV_FUR + " = " +  (FUR/totalV_FUR));*/
-		DecimalFormat f = new DecimalFormat("##.00");  
+/*		DecimalFormat f = new DecimalFormat("##.00");  
 		out.write("Overall Rating:\t" + (int)(biz_profs.get(i).getStars().doubleValue()*20) +  " (" +(biz_profs.get(i).getStars().doubleValue())+ ")\n");
 		out.write("Cool Review Rating:\t\t" + f.format((20*(CRR/totalV_CRR))) + " (" +(CRR/totalV_CRR)+ ")\n");
 		out.write("Useful Review Rating:\t" + f.format((20*(URR/totalV_URR))) + " (" +(URR/totalV_URR)+ ")\n");
@@ -92,8 +93,24 @@ public class Algorithms
 		out.write("Review Quantity Rating:\t\t"  +  f.format((20*(USR/total_numRevs))) + " (" +(USR/total_numRevs)+ ")\n");
 		
 		out.write("--------------------------------------------------\n");
+		
+*/		
+		
+		DecimalFormat f = new DecimalFormat("##.00");  
+		out.write("\"s1\":" + (int)(biz_profs.get(i).getStars().doubleValue()*20) + ",");
+		out.write("\"s2\":" + f.format((20*(CRR/totalV_CRR))) + ",");
+		out.write("\"s3\":" + f.format((20*(URR/totalV_URR))) + ",");
+		out.write("\"s4\":" + f.format((20*(FRR/totalV_FRR))) + ",");
+		out.write("\"s5\":" + f.format((20*(CUR/totalV_CUR))) + ",");
+		out.write("\"s6\":" + f.format((20*(UUR/totalV_UUR))) + ",");
+		out.write("\"s7\":" + f.format((20*(FUR/totalV_FUR))) + ",");
+		double rec_rtg = ((CRR/totalV_CRR) + (URR/totalV_URR) + (FRR/totalV_FRR) + (CUR/totalV_CUR) + (UUR/totalV_UUR) + (FUR/totalV_FUR)) / 6;
+		out.write("\"s8\":" + f.format((20*(rec_rtg))) + ",");
+		out.write("\"s9\":" + f.format((20*(USR/total_numRevs))) + "},\n");
+		
 		}	
 	System.out.println("Count: " + cnt);
+	out.write(']');
 	out.close();
 		}
 	catch (IOException e) 
