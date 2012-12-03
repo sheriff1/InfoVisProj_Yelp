@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>test</title>
+</head>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<style type="text/css">
+
+.bar1 {
+				display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 10px;
+				background-color: red;
+			}
+			
+.bar2 {
+			    display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 2px;
+				background-color: teal;
+}
+
+.bar3 {
+			    display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 2px;
+				background-color: green;
+}
+
+
+.bar4 {
+				display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 10px;
+				background-color: yellow;
+			}
+			
+.bar5 {
+			    display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 2px;
+				background-color: pink;
+}
+
+.bar6 {
+			    display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 2px;
+				background-color: orange;
+}
+
+.bar7 {
+				display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 10px;
+				background-color: blue;
+			}
+			
+.bar8 {
+			    display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 2px;
+				background-color: purple ;
+}
+
+.bar9 {
+			    display: inline-block;
+				width: 50px;
+				height: 15px;	
+				margin-right: 2px;
+				background-color: #CF6;
+}
+
+</style>
+
+
+<body>
+
+<p align="center"> Category: Pizza  </p>  
+
+<table cellpadding="3" cellspacing="0" border="0" width="100%">
+							<tr style="cursor: pointer;">
+								<th  width="125" align="left">&nbsp;</th>
+								<th width="150" align="left" ><u>Overall</u></th>
+                                <th  width="150" align="left"><u>Voting Userful</u></th>
+								<th width="150" align="left"><u>Voting Cool</u></th>
+								<th  width="150" align="left"><u>Voting Funny</u></th>
+                                <th  width="150" align="left"><u>Reviewer Userful</u></th>
+								<th width="150" align="left"><u>Reviewer Cool</u></th>
+								<th  width="150" align="left"><u>Reviewer Funny</u></th>  
+                                <th  width="150" align="left"><u>Review Quantity</u></th>
+                                <th  width="121" align="left"><u>Recent</u></th>
+							</tr>
+                 
+							<tbody id="placeholder">
+                           
+                    		 <script>
+							
+						  		var output="";
+						    	$.getJSON('caterest.js', function(data) {
+								
+        						for (var i in data) {
+									
+									
+           						 output+="<tr>  <td>" + data[i].Name + "</td> <td> <span class='bar1' id='span1'+i >  " + data[i].Overall + "</span> </td>" 
+								 + "<td> <span class='bar2' id='span2'+i >  " + data[i].Vuseful + "</span> </td>"
+								 + "<td> <span class='bar3' id='span3'+i >  " + data[i].Vcool + "</span> </td>"
+								 + "<td> <span class='bar4' id='span4'+i >  " + data[i].Vfunny + "</span> </td>"
+								 + "<td> <span class='bar5' id='span5'+i >  " + data[i].Ruseful + "</span> </td>"
+								 + "<td> <span class='bar6' id='span6'+i >  " + data[i].Rcool + "</span> </td>"
+								 + "<td> <span class='bar7' id='span7'+i >  " + data[i].Rfunny + "</span> </td>"
+								 + "<td> <span class='bar8' id='span8'+i >  " + data[i].Rquntity + "</span> </td>"
+								 + "<td> <span class='bar9' id='span9'+i >  " + data[i].Recent + "</span> </td>"
+								 +"</tr>";
+								 
+								
+       							}
+        					
+								document.getElementById("placeholder").innerHTML=output;
+								
+  							});
+  		
+						   
+						   </script>  
+                          
+                                
+						 </tbody>
+                             	
+						</table>
+
+    </body>
+</html>
