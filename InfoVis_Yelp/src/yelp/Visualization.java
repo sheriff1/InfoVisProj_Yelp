@@ -20,10 +20,16 @@ public class Visualization
 			ObjectMapper mapper = new ObjectMapper(); // can reuse, share globally
 			ArrayList<ScoreObj> dataset = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.json"), 
 					new TypeReference<List<ScoreObj>>(){});
-			ArrayList<String> categories = new ArrayList<String>();
-			System.out.println("size: " + dataset.size());
-			
-			for(ScoreObj a : )
+			ArrayList<String> rest_categories = new ArrayList<String>();
+			//System.out.println("size: " + dataset.size()); //106 restaurants total.
+			for(ScoreObj a : dataset)
+			{
+				if(!rest_categories.contains(a.getCategory())) //23 categories total.
+				{
+					rest_categories.add(a.getCategory());
+					System.out.println(a.getCategory());
+				}
+			}
 		}
 		catch (JsonGenerationException e) 
 		{
