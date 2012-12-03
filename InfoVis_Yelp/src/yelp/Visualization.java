@@ -17,14 +17,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Visualization extends JPanel implements ActionListener
 {
+	ArrayList<ScoreObj> dataset;
+	ArrayList<String> rest_categories;
 	public Visualization()
 	{
 		try
 		{
 			ObjectMapper mapper = new ObjectMapper(); // can reuse, share globally
-			ArrayList<ScoreObj> dataset = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.json"), 
+			dataset = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.json"), 
 					new TypeReference<List<ScoreObj>>(){});
-			ArrayList<String> rest_categories = new ArrayList<String>();
+			rest_categories = new ArrayList<String>();
 			String [] r_cats = new String[23];
 			//System.out.println("size: " + dataset.size()); //106 restaurants total.
 			for(ScoreObj a : dataset)
@@ -32,16 +34,13 @@ public class Visualization extends JPanel implements ActionListener
 				if(!rest_categories.contains(a.getCategory())) //23 categories total.
 				{
 					rest_categories.add(a.getCategory());
-					System.out.println(a.getCategory());
+					//System.out.println(a.getCategory());
 				}
 			}
 			rest_categories.toArray(r_cats);
     		JComboBox cats = new JComboBox(r_cats);
 			cats.addActionListener(this);
-			
-			
-			
-			
+
 			 //Lay out everything.
 			JPanel yelpVis = new JPanel();
 			yelpVis.add(cats);
@@ -72,11 +71,27 @@ public class Visualization extends JPanel implements ActionListener
 
 	public void actionPerformed(ActionEvent ap) 
 	{
-		// TODO Auto-generated method stub
-		
+		JComboBox cb = (JComboBox)ap.getSource();
+	    String newSelection = (String)cb.getSelectedItem(); //gets category name.
+	    updateView(newSelection);
+	}
+	
+	public void updateView(String category)
+	{
+		int count = 0;
+		System.out.println(category.toUpperCase() + "\n------------------");
+		for(ScoreObj g : dataset)
+		{
+			if(g.getCategory().equals(category))
+			{
+				count++;
+				System.out.println(count + ".) " + g.getName());
+			}
+		}
 	}
 
-	  private static void createAndShowGUI() {
+    private static void createAndShowGUI() 
+	{
 	        //Create and set up the window.
 	        JFrame frame = new JFrame("Visualization");
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -89,7 +104,7 @@ public class Visualization extends JPanel implements ActionListener
 	        //Display the window.
 	        frame.pack();
 	        frame.setVisible(true);
-	    }
+	}
 
 	    public static void main(String[] args) 
 	    {
