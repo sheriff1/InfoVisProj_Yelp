@@ -15,7 +15,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Visualization extends JPanel implements ActionListener
+public class Visualization extends JPanel
 {
 	ArrayList<ScoreObj> dataset;
 	ArrayList<String> rest_categories;
@@ -28,6 +28,7 @@ public class Visualization extends JPanel implements ActionListener
 					new TypeReference<List<ScoreObj>>(){});
 			rest_categories = new ArrayList<String>();
 			String [] r_cats = new String[23];
+			String [] rating_types = new String[9];
 			//System.out.println("size: " + dataset.size()); //106 restaurants total.
 			for(ScoreObj a : dataset)
 			{
@@ -37,13 +38,43 @@ public class Visualization extends JPanel implements ActionListener
 					//System.out.println(a.getCategory());
 				}
 			}
+			rating_types[0] = "Overall Rating";
+			rating_types[1] = "Cool Reviews";
+			rating_types[2] = "Useful Reviews";
+			rating_types[3] = "Funny Reviews";	
+			rating_types[4] = "Cool Reviewers";			
+	    	rating_types[5] = "Useful Reviewers";
+	    	rating_types[6] = "Funny Reviewers";
+	    	rating_types[7] = "Recent Ratings";
+	    	rating_types[8] = "Reviewer's quantity of ratings";
 			rest_categories.toArray(r_cats);
     		JComboBox cats = new JComboBox(r_cats);
+    		JComboBox rats = new JComboBox(rating_types);
     		JLabel cat_title = new JLabel("Select a category:");
-			cats.addActionListener(this);
+    		JLabel rating_title = new JLabel("Sort based on:");
+			//cats.addActionListener(this);
 
+			cats.addActionListener(new ActionListener(){
+				public void actionPerformed(ActionEvent ap) 
+				{
+					JComboBox cb = (JComboBox)ap.getSource();
+				    String newSelection = (String)cb.getSelectedItem(); //gets category name.
+				    updateView(newSelection);
+				}
+			});
+			rats.addActionListener(new ActionListener(){
+				public void actionPerformed(ActionEvent event) 
+				{
+					JComboBox cb = (JComboBox)event.getSource();
+				    String newSelection = (String)cb.getSelectedItem();
+				    System.out.println("Sort by: " + newSelection);
+				}
+			});
+			
 			 //Lay out everything.
 			JPanel yelpVis = new JPanel();
+			yelpVis.add(rating_title);
+			yelpVis.add(rats);
 			yelpVis.add(cat_title);
 			yelpVis.add(cats);
 			add(yelpVis);
@@ -71,12 +102,7 @@ public class Visualization extends JPanel implements ActionListener
 		}
 	}
 
-	public void actionPerformed(ActionEvent ap) 
-	{
-		JComboBox cb = (JComboBox)ap.getSource();
-	    String newSelection = (String)cb.getSelectedItem(); //gets category name.
-	    updateView(newSelection);
-	}
+
 	
 	public void updateView(String category)
 	{
