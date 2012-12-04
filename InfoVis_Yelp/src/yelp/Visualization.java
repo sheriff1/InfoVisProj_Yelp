@@ -24,7 +24,7 @@ public class Visualization extends JPanel
 		try
 		{
 			ObjectMapper mapper = new ObjectMapper(); // can reuse, share globally
-			dataset = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.json"), 
+			dataset = mapper.readValue(new File("all_ratings.json"), 
 					new TypeReference<List<ScoreObj>>(){});
 			rest_categories = new ArrayList<String>();
 			String [] r_cats = new String[23];
