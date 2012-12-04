@@ -60,6 +60,8 @@ public class Visualization extends JPanel
 					JComboBox cb = (JComboBox)ap.getSource();
 				    String newSelection = (String)cb.getSelectedItem(); //gets category name.
 				    updateView(newSelection);
+				    
+				    //SHOW RESTAURANTS WITHIN SELECTED CATEGORY.
 				}
 			});
 			rats.addActionListener(new ActionListener(){
@@ -68,6 +70,9 @@ public class Visualization extends JPanel
 					JComboBox cb = (JComboBox)event.getSource();
 				    String newSelection = (String)cb.getSelectedItem();
 				    System.out.println("Sort by: " + newSelection);
+				    
+				    //SORT BASED ON RATING TYPE SELECTED.
+				    
 				}
 			});
 			
