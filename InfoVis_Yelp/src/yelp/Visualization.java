@@ -39,10 +39,12 @@ public class Visualization extends JPanel implements ActionListener
 			}
 			rest_categories.toArray(r_cats);
     		JComboBox cats = new JComboBox(r_cats);
+    		JLabel cat_title = new JLabel("Select a category:");
 			cats.addActionListener(this);
 
 			 //Lay out everything.
 			JPanel yelpVis = new JPanel();
+			yelpVis.add(cat_title);
 			yelpVis.add(cats);
 			add(yelpVis);
 			
@@ -78,14 +80,12 @@ public class Visualization extends JPanel implements ActionListener
 	
 	public void updateView(String category)
 	{
-		int count = 0;
 		System.out.println(category.toUpperCase() + "\n------------------");
 		for(ScoreObj g : dataset)
 		{
 			if(g.getCategory().equals(category))
 			{
-				count++;
-				System.out.println(count + ".) " + g.getName());
+				//SHOW DATA FOR RESTAURANTS IN THIS CATEGORY
 			}
 		}
 	}
