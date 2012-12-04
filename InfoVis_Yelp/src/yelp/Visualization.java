@@ -80,11 +80,23 @@ public class Visualization extends JPanel implements ActionListener
 	
 	public void updateView(String category)
 	{
+		int cnt = 0;
 		System.out.println(category.toUpperCase() + "\n------------------");
 		for(ScoreObj g : dataset)
 		{
 			if(g.getCategory().equals(category))
 			{
+				cnt++;
+				System.out.println(cnt+ ".) " + g.getName() + " S1:"
+						+ g.getS1() + " S2:"
+						+ g.getS2() + " S3:"
+						+ g.getS3() + " S4:"
+						+ g.getS4() + " S5:"
+						+ g.getS5() + " S6:"
+						+ g.getS6() + " S7:"
+						+ g.getS7() + " S8:"
+						+ g.getS8() + " S9:"
+						+ g.getS9());
 				//SHOW DATA FOR RESTAURANTS IN THIS CATEGORY
 			}
 		}
