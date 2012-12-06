@@ -21,11 +21,11 @@ public class Algorithms
 		int total_numRevs = 0;
 		try 
 		{
-			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.json"));
+			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratons.json"));
 			int cnt = 0;
 		
 		double CRR = 0, URR = 0, FRR = 0, CUR = 0, UUR = 0, FUR = 0, USR = 0;
-		out.write('[');
+		//out.write('[');
 		for(int i=0; i<biz_profs.size(); i++)
 		{
 			cnt++;
@@ -73,7 +73,7 @@ public class Algorithms
 		totalV_UUR = (totalV_UUR == 0) ? 1 : totalV_UUR;
 		totalV_FUR = (totalV_FUR == 0) ? 1 : totalV_FUR;
 		total_numRevs = (total_numRevs == 0) ? 1 : total_numRevs;
-		out.write("{\"name\":\"" + biz_profs.get(i).getName().toUpperCase() + "\",");
+		/*out.write("{\"name\":\"" + biz_profs.get(i).getName().toUpperCase() + "\",");*/
 		/*System.out.println("Cool Review Rating:\t" + CRR + "/" + totalV_CRR + " = " + (CRR/totalV_CRR));
 		System.out.println("Useful Review Rating:\t" + URR + "/" + totalV_URR + " = " +  (URR/totalV_URR));
 		System.out.println("Funny Review Rating:\t" + FRR + "/" + totalV_FRR + " = " + (FRR/totalV_FRR));
@@ -95,7 +95,8 @@ public class Algorithms
 		out.write("--------------------------------------------------\n");
 		
 */		
-		
+	//JSON	
+		out.write(biz_profs.get(i).getName() + ",");
 		DecimalFormat f = new DecimalFormat("##.00");  
 		out.write("\"s1\":" + (int)(biz_profs.get(i).getStars().doubleValue()*20) + ",");
 		out.write("\"s2\":" + f.format((20*(CRR/totalV_CRR))) + ",");
@@ -108,9 +109,23 @@ public class Algorithms
 		out.write("\"s8\":" + f.format((20*(rec_rtg))) + ",");
 		out.write("\"s9\":" + f.format((20*(USR/total_numRevs))) + "},\n");
 		
+	//CSV
+/*		out.write(biz_profs.get(i).getName() + ",");
+		DecimalFormat f = new DecimalFormat("##.00");  
+		out.write((int)(biz_profs.get(i).getStars().doubleValue()*20) + ",");
+		out.write(f.format((20*(CRR/totalV_CRR))) + ",");
+		out.write(f.format((20*(URR/totalV_URR))) + ",");
+		out.write(f.format((20*(FRR/totalV_FRR))) + ",");
+		out.write(f.format((20*(CUR/totalV_CUR))) + ",");
+		out.write(f.format((20*(UUR/totalV_UUR))) + ",");
+		out.write(f.format((20*(FUR/totalV_FUR))) + ",");
+		double rec_rtg = ((CRR/totalV_CRR) + (URR/totalV_URR) + (FRR/totalV_FRR) + (CUR/totalV_CUR) + (UUR/totalV_UUR) + (FUR/totalV_FUR)) / 6;
+		out.write(f.format((20*(rec_rtg))) + ",");
+		out.write(f.format((20*(USR/total_numRevs))) + "\n");
+*/		
 		}	
 	System.out.println("Count: " + cnt);
-	out.write(']');
+	//out.write(']');
 	out.close();
 		}
 	catch (IOException e) 
@@ -118,4 +133,36 @@ public class Algorithms
 		e.printStackTrace();
 	}
 }
+	
+	public static void Algo2(List<ScoreObj> scobj)
+	{
+		int cnt = 0;
+		try 
+		{
+			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/InfoVisProj_Yelp/all_ratings.csv"));
+			for (ScoreObj a : scobj)
+			{
+				cnt++;
+				out.write(a.getName() + ",");
+				out.write(a.getCategory() + ",");
+				out.write(a.getS1() + ",");
+				out.write(a.getS2() + ",");
+				out.write(a.getS3() + ",");
+				out.write(a.getS4() + ",");
+				out.write(a.getS5() + ",");
+				out.write(a.getS6() + ",");
+				out.write(a.getS7() + ",");
+				out.write(a.getS8() + ",");
+				out.write(a.getS9() + "\n");
+			}
+			System.out.println("Count: " + cnt);
+			out.close();
+		} 
+		catch (IOException e) 
+		{
+			e.printStackTrace();
+		}
+		
+
+	}
 }

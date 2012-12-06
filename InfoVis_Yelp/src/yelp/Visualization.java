@@ -1,5 +1,7 @@
 package yelp;
 
+import java.awt.Color;
+import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -19,6 +21,9 @@ public class Visualization extends JPanel
 {
 	ArrayList<ScoreObj> dataset;
 	ArrayList<String> rest_categories;
+	Color [] rating_colors = new Color[9];
+	JPanel yelpVis = new JPanel();
+
 	public Visualization()
 	{
 		try
@@ -35,18 +40,27 @@ public class Visualization extends JPanel
 				if(!rest_categories.contains(a.getCategory())) //23 categories total.
 				{
 					rest_categories.add(a.getCategory());
-					//System.out.println(a.getCategory());
+					System.out.println(a.getCategory());
 				}
 			}
 			rating_types[0] = "Overall Rating";
+			rating_colors[0] = Color.BLUE;
 			rating_types[1] = "Cool Reviews";
+			rating_colors[1] = Color.RED;
 			rating_types[2] = "Useful Reviews";
+			rating_colors[2] = Color.GREEN;
 			rating_types[3] = "Funny Reviews";	
-			rating_types[4] = "Cool Reviewers";			
+			rating_colors[3] = Color.YELLOW;
+			rating_types[4] = "Cool Reviewers";		
+			rating_colors[4] = Color.MAGENTA;
 	    	rating_types[5] = "Useful Reviewers";
+	    	rating_colors[5] = Color.ORANGE;
 	    	rating_types[6] = "Funny Reviewers";
+	    	rating_colors[6] = Color.CYAN;
 	    	rating_types[7] = "Recent Ratings";
+	    	rating_colors[7] = Color.PINK;
 	    	rating_types[8] = "Reviewer's quantity of ratings";
+	    	rating_colors[8] = Color.LIGHT_GRAY;
 			rest_categories.toArray(r_cats);
     		JComboBox cats = new JComboBox(r_cats);
     		JComboBox rats = new JComboBox(rating_types);
@@ -54,14 +68,19 @@ public class Visualization extends JPanel
     		JLabel rating_title = new JLabel("Sort based on:");
 			//cats.addActionListener(this);
 
+    		//Lay out everything.
+			yelpVis.add(rating_title);
+			yelpVis.add(rats);
+			yelpVis.add(cat_title);
+			yelpVis.add(cats);
+			add(yelpVis);
+    		
 			cats.addActionListener(new ActionListener(){
 				public void actionPerformed(ActionEvent ap) 
 				{
 					JComboBox cb = (JComboBox)ap.getSource();
 				    String newSelection = (String)cb.getSelectedItem(); //gets category name.
 				    updateView(newSelection);
-				    
-				    //SHOW RESTAURANTS WITHIN SELECTED CATEGORY.
 				}
 			});
 			rats.addActionListener(new ActionListener(){
@@ -75,14 +94,7 @@ public class Visualization extends JPanel
 				    
 				}
 			});
-			
-			 //Lay out everything.
-			JPanel yelpVis = new JPanel();
-			yelpVis.add(rating_title);
-			yelpVis.add(rats);
-			yelpVis.add(cat_title);
-			yelpVis.add(cats);
-			add(yelpVis);
+		
 			
 		}
 		catch (JsonGenerationException e) 
@@ -112,25 +124,33 @@ public class Visualization extends JPanel
 	public void updateView(String category)
 	{
 		int cnt = 0;
+		
 		System.out.println(category.toUpperCase() + "\n------------------");
-		for(ScoreObj g : dataset)
+		for(ScoreObj scobj : dataset)
 		{
-			if(g.getCategory().equals(category))
+			if(scobj.getCategory().equals(category))
 			{
 				cnt++;
-				System.out.println(cnt+ ".) " + g.getName() + " S1:"
-						+ g.getS1() + " S2:"
-						+ g.getS2() + " S3:"
-						+ g.getS3() + " S4:"
-						+ g.getS4() + " S5:"
-						+ g.getS5() + " S6:"
-						+ g.getS6() + " S7:"
-						+ g.getS7() + " S8:"
-						+ g.getS8() + " S9:"
-						+ g.getS9());
-				//SHOW DATA FOR RESTAURANTS IN THIS CATEGORY
+				System.out.println(cnt+ ".) " + scobj.getName() + " S1:"
+						+ scobj.getS1() + " S2:"
+						+ scobj.getS2() + " S3:"
+						+ scobj.getS3() + " S4:"
+						+ scobj.getS4() + " S5:"
+						+ scobj.getS5() + " S6:"
+						+ scobj.getS6() + " S7:"
+						+ scobj.getS7() + " S8:"
+						+ scobj.getS8() + " S9:"
+						+ scobj.getS9());
+				//SHOW DATA FOR RESTAURANTS IN THIS CATEGORY			
 			}
 		}
+		repaint();
+	}
+	
+	protected void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+		
 	}
 
     private static void createAndShowGUI() 

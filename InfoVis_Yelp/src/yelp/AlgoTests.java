@@ -23,8 +23,10 @@ public class AlgoTests
 					new TypeReference<List<User_Prof>>(){});
 			List<User_Review> usr_revs = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/VT_jsons/VT_user_reviews.json"), 
 					new TypeReference<List<User_Review>>(){});
-			
+			List<ScoreObj> scobj = mapper.readValue(new File("all_ratings.json"), 
+					new TypeReference<List<ScoreObj>>(){});
 			Algorithms.Algo1(biz_profs, user_profs, usr_revs);
+			//Algorithms.Algo2(scobj);
 		}
 		catch (JsonGenerationException e) 
 		{
