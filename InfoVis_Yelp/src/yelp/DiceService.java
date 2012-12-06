@@ -43,11 +43,11 @@ public class DiceService{
 	private static final String [] rating_types = {"Overall Rating", "Cool Reviews",
 	"Useful Reviews",
 	"Funny Reviews",
-	"Cool Reviewers",
-	"Useful Reviewers",
-	"Funny Reviewers",
+	"Cool Users",
+	"Useful Users",
+	"Funny Users",
 	"Recent Rating",
-	"High Volume Reviewers"};
+	"High Volume Users"};
 	/*private static final Color [] rating_colors = {Color.BLUE,Color.RED,Color.GREEN,Color.YELLOW,
 	Color.MAGENTA,
 	Color.ORANGE,
@@ -155,6 +155,9 @@ public class DiceService{
 				ArrayList<ScoreObj> sorted = new ArrayList<ScoreObj>(); 
 				Color freshblue = new Color(88,161,255);
 				Color darkblue = new Color(20,0,190);
+				Color gold = new Color(255, 215, 0);
+				Color silver = new Color(227, 228, 229);
+				Color bronze = new Color(205, 127, 50);
 				//SORTING
 				for (ScoreObj sc : dataset)
 				{
@@ -166,15 +169,14 @@ public class DiceService{
 				
 				while(!catted.isEmpty())
 				{
-
-				ScoreObj temp = new ScoreObj();
-				for (ScoreObj sc : catted)
-				{
-					
-					if(sc.getScores(rat_index) > temp.getScores(rat_index))
+					ScoreObj temp = new ScoreObj();
+					for (ScoreObj sc : catted)
 					{
-						temp = sc;
-					}
+					
+						if(sc.getScores(rat_index) > temp.getScores(rat_index))
+						{
+							temp = sc;
+						}
 					
 				}
 				//System.out.println("IT IS: " + temp.getName());
@@ -192,8 +194,10 @@ public class DiceService{
 					x = x + 110;
 				}
 				y=y+10;
+				int rest_cnt=1;
 				for (ScoreObj sc : sorted) 
 				{
+					
 					x=10;
 						g.setColor(Color.BLACK);
 						g.drawString(sc.getName(),x,y+12);
@@ -203,10 +207,40 @@ public class DiceService{
 							int width = sc.scoresArray()[a];
 							if(a==rat_index)
 							{
+								if(rest_cnt<=3)
+								{
+									switch(rest_cnt)
+									{
+									case 1:
+										g.setColor(gold);
+										g.fillRect(x, y, width, height);
+										g.setColor(Color.BLACK);
+										g.drawRect(x, y, 100, height);
+										rest_cnt++;
+										break;
+									case 2:
+										g.setColor(silver);
+										g.fillRect(x, y, width, height);
+										g.setColor(Color.BLACK);
+										g.drawRect(x, y, 100, height);
+										rest_cnt++;
+										break;
+									case 3:
+										g.setColor(bronze);
+										g.fillRect(x, y, width, height);
+										g.setColor(Color.BLACK);
+										g.drawRect(x, y, 100, height);
+										rest_cnt++;
+										break;
+									}
+								}
+								else
+								{
 								g.setColor(freshblue);
 								g.fillRect(x, y, width, height);
 								g.setColor(Color.BLACK);
 								g.drawRect(x, y, 100, height);
+								}
 							}
 							else
 							{
@@ -220,7 +254,54 @@ public class DiceService{
 						}
 						y=y+25;
 				}
-				
+				int boxwth=113;
+				switch(rat_index)
+				{
+				case 0:
+					g.setColor(Color.red);
+					g.drawRect(253, 35, boxwth, y-25);
+					break;
+
+				case 1:
+					g.setColor(Color.red);
+					g.drawRect(250+(boxwth*rat_index), 35, boxwth, y-25);
+					break;
+
+				case 2:
+					g.setColor(Color.red);
+					g.drawRect(250+(boxwth*rat_index), 35, boxwth-3, y-25);
+					break;
+
+				case 3:
+					g.setColor(Color.red);
+					g.drawRect(250+(boxwth*rat_index)-3, 35, boxwth-3, y-25);
+					break;
+
+				case 4:
+					g.setColor(Color.red);
+					g.drawRect(695, 35, boxwth-3, y-25);
+					break;
+
+				case 5:
+					g.setColor(Color.red);
+					g.drawRect(805, 35, boxwth-3, y-25);
+					break;
+
+				case 6:
+					g.setColor(Color.red);
+					g.drawRect(915, 35, boxwth-3, y-25);
+					break;
+
+				case 7:
+					g.setColor(Color.red);
+					g.drawRect(1025, 35, boxwth-3, y-25);
+					break;
+
+				case 8:
+					g.setColor(Color.red);
+					g.drawRect(1135, 35, boxwth+14, y-25);
+					break;
+				}
 		}
 
 	}
