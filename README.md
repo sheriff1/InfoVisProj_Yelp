@@ -39,10 +39,8 @@ vtvisyelp
     S ---> remove non-restaurants from business profiles JSON file					 [X]
 	in VT_jsons folder, business_profiles_food_only
 
-    -layout the visualization and menu interface                                                         [ ]
-
-    -load and use JSON into D3 and connect it somehow to our layout                                      [ ]
- 
+    S ---> -layout the visualization and menu interface                                                         [X
+   	created in Java. 
 
 Suggestions for layout enhancement after Project 2 presentation (11/13/2012):
 - Mesh the UI with the visualization.
@@ -53,5 +51,9 @@ Suggestions for layout enhancement after Project 2 presentation (11/13/2012):
 	and then allow user to create "What's Important to you" rating based on those (still use checkbox, seems easiest for now)
 
 
+TODO (12/6/12 - End)
+1.) Olympic coloring in visualization
+2.) placing box around selected rating type in visualization
+3.) placing instructions in visualization
 
 
