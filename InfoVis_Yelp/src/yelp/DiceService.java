@@ -46,14 +46,14 @@ public class DiceService{
 	"Cool Reviewers",
 	"Useful Reviewers",
 	"Funny Reviewers",
-	"Recent Ratings",
+	"Recent Rating",
 	"High Volume Reviewers"};
-	private static final Color [] rating_colors = {Color.BLUE,Color.RED,Color.GREEN,Color.YELLOW,
+	/*private static final Color [] rating_colors = {Color.BLUE,Color.RED,Color.GREEN,Color.YELLOW,
 	Color.MAGENTA,
 	Color.ORANGE,
 	Color.CYAN,
 	Color.PINK,
-	Color.LIGHT_GRAY};
+	Color.LIGHT_GRAY};*/
 	private static JComboBox cats = new JComboBox(categories);
     private static JComboBox rats = new JComboBox(rating_types);
     ArrayList<ScoreObj> dataset;
@@ -92,17 +92,16 @@ public class DiceService{
 	}
 
 	public void go(){
-		JFrame frame = new JFrame("Yelp++");
+		JFrame frame = new JFrame("VT Yelp++");
 		panel = new JPanel();
 		JButton button = new JButton("Submit");
 		button.addActionListener(new RollEmListener());
 		JLabel cat_title = new JLabel("Select a category:");
 		JLabel rating_title = new JLabel("Sort based on:");
 		Border blackline = BorderFactory.createLineBorder(Color.red);
-		Border blackline2 = BorderFactory.createLineBorder(Color.blue);
 		
 		System.out.println("STRANG" + panel.toString());
-		panel.setMaximumSize(new Dimension(800,50));
+		panel.setMaximumSize(new Dimension(1400,50));
 		System.out.println("STRANG" + panel.toString());
 
 		//initialize bar graph panel
@@ -149,12 +148,13 @@ public class DiceService{
 		{
 			    int rat_index = rats.getSelectedIndex();
 				String cat_type = cats.getSelectedItem().toString();
-				int x = 310; //initial X-axis
+				int x = 10; //initial X-axis
 				int y = 50; //inital Y-axis
 				int height = 15; // the initial height of bar
 				ArrayList<ScoreObj> catted = new ArrayList<ScoreObj>();
 				ArrayList<ScoreObj> sorted = new ArrayList<ScoreObj>(); 
-				
+				Color freshblue = new Color(88,161,255);
+				Color darkblue = new Color(20,0,190);
 				//SORTING
 				for (ScoreObj sc : dataset)
 				{
@@ -184,28 +184,41 @@ public class DiceService{
 				
 				
 				//DRAWING
+				g.drawString("Restaurant:", x, y);				
+				x=x+250;
 				for(int c=0; c<9; c++)
 				{
 					g.drawString(rating_types[c],x,y);
 					x = x + 110;
 				}
-				y=y+20;
+				y=y+10;
 				for (ScoreObj sc : sorted) 
 				{
 					x=10;
 						g.setColor(Color.BLACK);
-						g.drawString(sc.getName(),x,y+15);
-						x=x+300;
+						g.drawString(sc.getName(),x,y+12);
+						x=x+250;
 						for(int a=0; a<9; a++)
 						{
 							int width = sc.scoresArray()[a];
-							g.setColor(rating_colors[a]);
-							g.fillRect(x, y, width, height);
-							g.setColor(Color.BLACK);
-							g.drawRect(x, y, width, height);
+							if(a==rat_index)
+							{
+								g.setColor(freshblue);
+								g.fillRect(x, y, width, height);
+								g.setColor(Color.BLACK);
+								g.drawRect(x, y, 100, height);
+							}
+							else
+							{
+								g.setColor(darkblue);
+								g.fillRect(x, y, width, height);
+								g.setColor(Color.BLACK);
+								g.drawRect(x, y, 100, height);
+							}
+							
 							x=x+110;
 						}
-						y=y+40;
+						y=y+25;
 				}
 				
 		}
