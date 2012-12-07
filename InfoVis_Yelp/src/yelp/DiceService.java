@@ -63,7 +63,7 @@ public class DiceService{
 		try
 		{
 			ObjectMapper mapper = new ObjectMapper(); 
-			dataset = mapper.readValue(new File("all_ratings.json"), 
+			dataset = mapper.readValue(new File("all_ratings_imp.json"), 
 					new TypeReference<List<ScoreObj>>(){});
 		}
 		catch (JsonGenerationException e) 
@@ -98,7 +98,7 @@ public class DiceService{
 		button.addActionListener(new RollEmListener());
 		JLabel cat_title = new JLabel("Select a category:");
 		JLabel rating_title = new JLabel("Sort based on:");
-		Border blackline = BorderFactory.createLineBorder(Color.red);
+		Border blackline = BorderFactory.createLineBorder(Color.lightGray);
 		
 		System.out.println("STRANG" + panel.toString());
 		panel.setMaximumSize(new Dimension(1400,50));
@@ -259,47 +259,47 @@ public class DiceService{
 				{
 				case 0:
 					g.setColor(Color.red);
-					g.drawRect(253, 35, boxwth, y-25);
+					g.drawRect(253, 35, boxwth, y-40);
 					break;
 
 				case 1:
 					g.setColor(Color.red);
-					g.drawRect(250+(boxwth*rat_index), 35, boxwth, y-25);
+					g.drawRect(250+(boxwth*rat_index), 35, boxwth, y-40);
 					break;
 
 				case 2:
 					g.setColor(Color.red);
-					g.drawRect(250+(boxwth*rat_index), 35, boxwth-3, y-25);
+					g.drawRect(250+(boxwth*rat_index), 35, boxwth-3, y-40);
 					break;
 
 				case 3:
 					g.setColor(Color.red);
-					g.drawRect(250+(boxwth*rat_index)-3, 35, boxwth-3, y-25);
+					g.drawRect(250+(boxwth*rat_index)-3, 35, boxwth-3, y-40);
 					break;
 
 				case 4:
 					g.setColor(Color.red);
-					g.drawRect(695, 35, boxwth-3, y-25);
+					g.drawRect(695, 35, boxwth-3, y-40);
 					break;
 
 				case 5:
 					g.setColor(Color.red);
-					g.drawRect(805, 35, boxwth-3, y-25);
+					g.drawRect(805, 35, boxwth-3, y-40);
 					break;
 
 				case 6:
 					g.setColor(Color.red);
-					g.drawRect(915, 35, boxwth-3, y-25);
+					g.drawRect(915, 35, boxwth-3, y-40);
 					break;
 
 				case 7:
 					g.setColor(Color.red);
-					g.drawRect(1025, 35, boxwth-3, y-25);
+					g.drawRect(1025, 35, boxwth-3, y-40);
 					break;
 
 				case 8:
 					g.setColor(Color.red);
-					g.drawRect(1135, 35, boxwth+14, y-25);
+					g.drawRect(1135, 35, boxwth+14, y-40);
 					break;
 				}
 		}
